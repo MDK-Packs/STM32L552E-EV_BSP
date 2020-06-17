@@ -1,0 +1,22 @@
+The 'Platform' project is a simple CMSIS RTOS2 based template.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+
+ - Platform template contains preconfigured drivers (USART, SPI, I2C)
+
+ - Target options:
+   - Compiler:                  ARM Compiler optimization Level 1
+   - Compiler:Event Recorder:   Enabled
+   - CMSIS:RTOS2:Keil RTX5:     Source
+
+ - Preconfigured drivers:
+     Peripheral      Pin    STMOD+
+   - LPUART1 : TX    PG8    2
+               RX    PG7    3
+   - SPI3    : NSS   PA4    1
+               SCLK  PG9    4
+               MOSI  PB5    8
+               MISO  PB4    9
+   - I2C1    : SCL   PG14   7
+               SDA   PG13  10
