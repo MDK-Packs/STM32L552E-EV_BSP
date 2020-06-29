@@ -7,6 +7,9 @@
   <repository type="git">https://github.com/MDK-Packs/STM32L552E-EV_BSP.git</repository>
 
   <releases>
+    <release version="1.0.0-dev3">
+      Update Platform example Abstract.
+    </release>
     <release version="1.0.0-dev2">
       Update Blinky example Abstract.
     </release>
@@ -358,7 +361,7 @@
       </attributes>
     </example>
 
-    <example name="Platform" doc="Abstract.txt" folder="Projects/Platform">
+    <example name="Platform" doc="Abstract.md" folder="Projects/Platform">
       <description>CMSIS-RTOS2 Platform example with VIO</description>
       <board name="STM32L552E-EV" vendor="STMicroelectronics"/>
       <project>

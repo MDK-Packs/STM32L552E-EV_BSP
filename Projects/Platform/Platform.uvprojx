@@ -424,9 +424,9 @@
           <GroupName>Documentation</GroupName>
           <Files>
             <File>
-              <FileName>Abstract.txt</FileName>
+              <FileName>Abstract.md</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Abstract.txt</FilePath>
+              <FilePath>.\Abstract.md</FilePath>
             </File>
           </Files>
         </Group>
@@ -513,37 +513,37 @@
         </targetInfos>
       </component>
       <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Components" Csub="HX8347I" Cvendor="Keil" Cversion="2.0.0" condition="STM32L552">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
       </component>
       <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Components" Csub="MFXSTM32L152" Cvendor="Keil" Cversion="3.0.2" condition="STM32L552">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
       </component>
       <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Drivers" Csub="BUS" Cvendor="Keil" Cversion="1.0.1" condition="STM32L552E-EV BSP BUS">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
       </component>
       <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Drivers" Csub="Basic I/O" Cvendor="Keil" Cversion="1.0.1" condition="STM32L552E-EV BSP">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
       </component>
       <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Drivers" Csub="IO" Cvendor="Keil" Cversion="1.0.1" condition="STM32L552E-EV BSP IO">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
       </component>
       <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Drivers" Csub="LCD" Cvendor="Keil" Cversion="1.0.1" condition="STM32L552E-EV BSP LCD">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
@@ -561,7 +561,7 @@
         </targetInfos>
       </component>
       <component Capiversion="0.1.0" Cclass="CMSIS Driver" Cgroup="VIO" Csub="Board" Cvariant="STM32L552E-EV" Cvendor="Keil" Cversion="1.0.0" condition="STM32L552E-EV VIO">
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
@@ -673,7 +673,7 @@
       <file attr="config" category="header" name="Drivers\Config\stm32l552e_eval_conf.h" version="1.0.0">
         <instance index="0">RTE\Board_Support\STM32L552ZETxQ\stm32l552e_eval_conf.h</instance>
         <component Cbundle="STM32L552E-EV" Cclass="Board Support" Cgroup="Drivers" Csub="Basic I/O" Cvendor="Keil" Cversion="1.0.1" condition="STM32L552E-EV BSP"/>
-        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev0"/>
+        <package name="STM32L552E-EV_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/STM32L552E-EV_BSP/" vendor="Keil" version="1.0.0-dev2"/>
         <targetInfos>
           <targetInfo name="STM32L552E-EV"/>
         </targetInfos>
@@ -950,6 +950,11 @@
         <LayAsnType>2</LayAsnType>
         <LayAsnName>.\RTE\Device\STM32L562QEIxQ\STCubeGenerated\STCubeGenerated.ioc</LayAsnName>
         <LayAsnLayerName>Board</LayAsnLayerName>
+      </LayAsnItem>
+      <LayAsnItem>
+        <LayAsnType>2</LayAsnType>
+        <LayAsnName>.\Abstract.md</LayAsnName>
+        <LayAsnLayerName>App</LayAsnLayerName>
       </LayAsnItem>
     </LayAssign>
   </LayerInfo>
