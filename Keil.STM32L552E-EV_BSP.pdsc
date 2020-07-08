@@ -7,6 +7,9 @@
   <repository type="git">https://github.com/MDK-Packs/STM32L552E-EV_BSP.git</repository>
 
   <releases>
+    <release version="1.0.0-dev4">
+      Update to sync with CB_Lab4Layer.
+    </release>
     <release version="1.0.0-dev3">
       Update Platform example Abstract.
     </release>
@@ -323,11 +326,11 @@
            orderForm   ="https://www.st.com/en/evaluation-tools/stm32l552e-ev.html">
       <description>STMicroelectronics STM32L552E-EVAL</description>
       <image small="Images/Eval_small.jpg"
-             large="Images/Eval_large.jpg"/>
-      <book category="overview"  name="https://www.st.com/en/evaluation-tools/stm32l552e-ev.html" title="STM32 Eval board"/>
-      <book category="overview"  name="Documents/stm32l552e-ev.pdf" title="Overview"/>
-      <book category="manual"    name="Documents/DM00623588.pdf"    title="User Manual"/>
-      <book category="schematic" name="Documents/MB1372.pdf"        title="Schematics"/>
+             large="Images/Eval_large.jpg" public="true"/>
+      <book category="overview"  name="https://www.st.com/en/evaluation-tools/stm32l552e-ev.html" title="STM32 Eval board" public="true"/>
+      <book category="overview"  name="Documents/stm32l552e-ev.pdf" title="Overview" public="true"/>
+      <book category="manual"    name="Documents/DM00623588.pdf"    title="User Manual" public="true"/>
+      <book category="schematic" name="Documents/MB1372.pdf"        title="Schematics" public="true"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32L552ZETxQ"/>
       <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32L5x2"/>
       <feature type="XTAL"            n="16000000"/>

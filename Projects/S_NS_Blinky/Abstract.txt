@@ -22,7 +22,7 @@ Example functionality:
 
   - Target options:
    - Compiler:                  ARM Compiler optimization Level 1
-   - Debug adapter:             ULINK2
+   - Debug adapter:             ST-Link
 
  - Hardware Mapping:
             Virtual I/O      Board
