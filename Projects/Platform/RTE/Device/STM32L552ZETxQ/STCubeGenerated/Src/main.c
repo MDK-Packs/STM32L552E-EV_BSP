@@ -127,8 +127,6 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_LPUART1_UART_Init();
-  MX_SPI3_Init();
   MX_ICACHE_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
