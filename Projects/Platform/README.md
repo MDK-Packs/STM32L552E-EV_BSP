@@ -41,7 +41,7 @@ The Board layer contains the following configured interface drivers:
  - vioLED2:      LD6 YELLOW (MFX_IO11)
  - vioLED3:      LD7 ORANGE (MFX_IO13)
 
-**STDOUT** routed to Virtual COM port (ST-LINK, baudrate = 115200)
+**STDIO** routed to Virtual COM port (ST-LINK, baudrate = 115200)
 
 The board configuration can be modified using 
 [STM32CubeMX](https://www.keil.com/stmicroelectronics-stm32) 
