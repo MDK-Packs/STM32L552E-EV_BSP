@@ -9,12 +9,12 @@
 
   <project>
     <PathAndName>.\part_S\part_S.uvprojx</PathAndName>
-    <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>
 
   <project>
     <PathAndName>.\part_NS\part_NS.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>
 

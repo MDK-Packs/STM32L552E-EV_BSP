@@ -2,9 +2,7 @@
   ******************************************************************************
   * @file    stm32l5xx_hal_conf.h
   * @author  MCD Application Team
-  * @brief   HAL configuration template file.
-  *          This file should be copied to the application folder and renamed
-  *          to stm32l5xx_hal_conf.h.
+  * @brief   HAL configuration file.
   ******************************************************************************
   * @attention
   *
@@ -168,8 +166,8 @@
   * @brief This is the HAL system configuration section
   */
 
-#define  VDD_VALUE					  3300UL /*!< Value of VDD in mv */           
-#define  TICK_INT_PRIORITY            7UL    /*!< tick interrupt priority */            
+#define  VDD_VALUE					  3300UL /*!< Value of VDD in mv */
+#define  TICK_INT_PRIORITY            7UL    /*!< tick interrupt priority */
 #define  USE_RTOS                     0U
 
 /* ########################## Assert Selection ############################## */
@@ -231,14 +229,13 @@
 #define USE_SPI_CRC                   0U
 
 /* ################## CRYP peripheral configuration ########################## */
- 
+
 #define USE_HAL_CRYP_SUSPEND_RESUME   1U
 
 /* ################## SDMMC peripheral configuration ######################### */
 
 #define USE_SD_TRANSCEIVER            0U
- 
- 
+
 /* Includes ------------------------------------------------------------------*/
 /**
   * @brief Include module's header file
