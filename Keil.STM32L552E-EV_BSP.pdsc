@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd" schemaVersion="1.6.3">
+<package xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd" schemaVersion="1.7.0">
   <name>STM32L552E-EV_BSP</name>
   <vendor>Keil</vendor>
   <description>STMicroelectronics STM32L5 Series STM32L552E-EV Board Support Pack</description>
@@ -7,40 +7,18 @@
   <repository type="git">https://github.com/MDK-Packs/STM32L552E-EV_BSP.git</repository>
 
   <releases>
-    <release version="1.0.0-dev7">
+    <release version="1.0.0-rc0">
+      Board description and documentation for STM32L552E-EV
+      Synchronized with STM32CubeL5 Firmware Package version V1.3.1
       Drivers:
-      - Updated Board Drivers, Components, Config files
+      - Board Drivers, Components, Config files
+      - CMSIS-Driver VIO
       Utilities:
-      - Updated LCD Utility Drivers
-      Updated CubeMX examples
-      Platform project:
-      - Updated Peripheral Interrupts Priority
-      - Restructured README.md
-      - Added board selection to board layer
-    </release>
-    <release version="1.0.0-dev6">
-      Update examples:
-      - MicroLIB not enabled
-      - correct heap size
-      - disable SPI_DMA
-    </release>
-    <release version="1.0.0-dev5">
-      Update Platform example.
-    </release>
-    <release version="1.0.0-dev4">
-      Update to sync with CB_Lab4Layer.
-    </release>
-    <release version="1.0.0-dev3">
-      Update Platform example Abstract.
-    </release>
-    <release version="1.0.0-dev2">
-      Update Blinky example Abstract.
-    </release>
-    <release version="1.0.0-dev1">
-      Minor fixes.
-    </release>
-    <release version="1.0.0-dev0">
-      Initial development release.
+      - LCD Utility Drivers
+      Example projects:
+      - CMSIS-RTOS2 Blinky (verify the basic tool setup)
+      - CMSIS-RTOS2 Platform (configure the board hardware)
+      - Bare-metal secure/non-secure Blinky example without RTOS
     </release>
   </releases>
 
@@ -365,6 +343,7 @@
       <feature type="LED"             n="4"              name="LEDs directly connected to port pins"/>
       <debugInterface adapter="JTAG/SW" connector="20 pin JTAG (0.1 inch connector)"/>
       <debugInterface adapter="JTAG/SW" connector="20-pin Cortex debug + ETM Trace (0.05 inch connector)"/>
+      <debugProbe connector="Micro-USB" debugClock="10000000" debugLink="swd" name="ST-Link"/>
     </board>
   </boards>
 
