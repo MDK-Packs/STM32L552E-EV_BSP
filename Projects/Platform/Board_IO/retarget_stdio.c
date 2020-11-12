@@ -22,7 +22,7 @@
 
 #include "stm32l5xx_hal.h"
 
-extern UART_HandleTypeDef hlpuart1;
+extern UART_HandleTypeDef huart3;
 
 /**
   Put a character to the stderr
@@ -33,7 +33,7 @@ extern UART_HandleTypeDef hlpuart1;
 int stderr_putchar (int ch) {
   int32_t ret = -1;
 
-  if (HAL_UART_Transmit(&hlpuart1, (uint8_t *) &ch, 1, 1000U) != HAL_OK)
+  if (HAL_UART_Transmit(&huart3, (uint8_t *) &ch, 1, 1000U) != HAL_OK)
   {
     return ret;
   }
@@ -50,7 +50,7 @@ int stderr_putchar (int ch) {
 int stdout_putchar (int ch) {
   int32_t ret = -1;
 
-  if (HAL_UART_Transmit(&hlpuart1, (uint8_t *) &ch, 1, 1000U) != HAL_OK)
+  if (HAL_UART_Transmit(&huart3, (uint8_t *) &ch, 1, 1000U) != HAL_OK)
   {
     return ret;
   }
@@ -67,7 +67,7 @@ int stdin_getchar (void) {
   int32_t ret = -1;
   uint8_t ch;
 
-  if (HAL_UART_Receive(&hlpuart1, (uint8_t *) &ch, 1, 1000U) != HAL_OK)
+  if (HAL_UART_Receive(&huart3, (uint8_t *) &ch, 1, 1000U) != HAL_OK)
   {
     return ret;
   }
