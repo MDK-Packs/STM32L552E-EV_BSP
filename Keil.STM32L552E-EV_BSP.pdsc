@@ -341,8 +341,9 @@
       <feature type="Poti"            n="1"              name="Analog Voltage Control for ADC Input (potentiometer)"/>
       <feature type="Button"          n="4"              name="Push-Buttons for Reset, Tamper and User"/>
       <feature type="LED"             n="4"              name="LEDs directly connected to port pins"/>
-      <debugInterface adapter="JTAG/SW" connector="20 pin JTAG (0.1 inch connector)"/>
+      <debugInterface adapter="JTAG/SW" connector="20-pin JTAG (0.1 inch connector)"/>
       <debugInterface adapter="JTAG/SW" connector="20-pin Cortex debug + ETM Trace (0.05 inch connector)"/>
+      <debugInterface adapter="ST-Link" connector="Micro-USB"/>
       <debugProbe connector="Micro-USB" debugClock="10000000" debugLink="swd" name="ST-Link"/>
     </board>
   </boards>
