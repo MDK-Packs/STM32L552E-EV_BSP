@@ -1,8 +1,8 @@
 /******************************************************************************
  * @file     vio_STM32L552E-EV.c
  * @brief    Virtual I/O implementation for board STM32L552E-EV
- * @version  V1.1.0
- * @date     6. November 2020
+ * @version  V1.1.1
+ * @date     16. August 2021
  ******************************************************************************/
 /*
  * Copyright (c) 2020 Arm Limited (or its affiliates). All rights reserved.
@@ -507,7 +507,7 @@ uint32_t vioGetSignal (uint32_t mask) {
 
 #if (USE_BSP_IO_CLASS == 1)
   if ((mask & vioJOYup) != 0U) {
-    if (BSP_JOY_GetState(JOY1) == 1U) {
+    if (BSP_JOY_GetState(JOY1) == JOY_UP) {
       vioSignalIn |=  vioJOYup;
     } else {
       vioSignalIn &= ~vioJOYup;
@@ -515,7 +515,7 @@ uint32_t vioGetSignal (uint32_t mask) {
   }
 
   if ((mask & vioJOYselect) != 0U) {
-    if (BSP_JOY_GetState(JOY1) == 1U) {
+    if (BSP_JOY_GetState(JOY1) == JOY_SEL) {
       vioSignalIn |=  vioJOYselect;
     } else {
       vioSignalIn &= ~vioJOYselect;
@@ -523,7 +523,7 @@ uint32_t vioGetSignal (uint32_t mask) {
   }
 
   if ((mask & vioJOYright) != 0U) {
-    if (BSP_JOY_GetState(JOY1) == 1U) {
+    if (BSP_JOY_GetState(JOY1) == JOY_RIGHT) {
       vioSignalIn |=  vioJOYright;
     } else {
       vioSignalIn &= ~vioJOYright;
@@ -531,7 +531,7 @@ uint32_t vioGetSignal (uint32_t mask) {
   }
 
   if ((mask & vioJOYleft) != 0U) {
-    if (BSP_JOY_GetState(JOY1) == 1U) {
+    if (BSP_JOY_GetState(JOY1) == JOY_LEFT) {
       vioSignalIn |=  vioJOYleft;
     } else {
       vioSignalIn &= ~vioJOYleft;
@@ -539,18 +539,10 @@ uint32_t vioGetSignal (uint32_t mask) {
   }
 
   if ((mask & vioJOYdown) != 0U) {
-    if (BSP_JOY_GetState(JOY1) == 1U) {
+    if (BSP_JOY_GetState(JOY1) == JOY_DOWN) {
       vioSignalIn |=  vioJOYdown;
     } else {
       vioSignalIn &= ~vioJOYdown;
-    }
-  }
-
-  if ((mask & vioJOYall) != 0U) {
-    if (BSP_JOY_GetState(JOY1) == 1U) {
-      vioSignalIn |=  vioJOYall;
-    } else {
-      vioSignalIn &= ~vioJOYall;
     }
   }
 #endif
