@@ -7,6 +7,11 @@
   <repository type="git">https://github.com/MDK-Packs/STM32L552E-EV_BSP.git</repository>
 
   <releases>
+    <release version="1.0.2-dev1">
+      Projects examples update:
+      - override default HAL_InitTick function
+      Replace documentation files with links
+    </release>
     <release version="1.0.2-dev0">
       Drivers:
       - CMSIS-Driver VIO: correct reading joystick
@@ -336,9 +341,9 @@
       <image small="Images/Eval_small.jpg"
              large="Images/Eval_large.jpg" public="true"/>
       <book category="overview"  name="https://www.st.com/en/evaluation-tools/stm32l552e-ev.html" title="STM32 Eval board"/>
-      <book category="overview"  name="Documents/stm32l552e-ev.pdf" title="Overview" public="true"/>
-      <book category="manual"    name="Documents/DM00623588.pdf"    title="User Manual" public="true"/>
-      <book category="schematic" name="Documents/MB1372.pdf"        title="Schematics" public="true"/>
+      <book category="overview"  name="https://www.st.com/resource/en/data_brief/stm32l552e-ev.pdf" title="Data brief" public="true"/>
+      <book category="manual"    name="https://www.st.com/resource/en/user_manual/um2597-evaluation-board-with-stm32l552ze-mcu-stmicroelectronics.pdf" title="User Manual" public="true"/>
+      <book category="schematic" name="https://www.st.com/resource/en/schematic_pack/mb1372-l552zeq-c02_schematic.pdf" title="Schematics" public="true"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32L552ZETxQ"/>
       <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32L5x2"/>
       <feature type="XTAL"            n="16000000"/>
