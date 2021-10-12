@@ -7,6 +7,9 @@
   <repository type="git">https://github.com/MDK-Packs/STM32L552E-EV_BSP.git</repository>
 
   <releases>
+    <release version="1.0.2-dev2">
+      Update Platform example (blocking stdin_getchar in stdio retarget)
+    </release>
     <release version="1.0.2-dev1">
       Projects examples update:
       - override default HAL_InitTick function
