@@ -7,22 +7,16 @@
   <repository type="git">https://github.com/MDK-Packs/STM32L552E-EV_BSP.git</repository>
 
   <releases>
-    <release version="1.1.0-dev0">
+    <release version="1.1.0-rc0">
       Synchronize with STM32CubeL5 Firmware Package version V1.4.0
+      Drivers:
+      - CMSIS-Driver VIO: Correct reading joystick
       Projects:
       - Update CubeMX project
-    </release>
-    <release version="1.0.2-dev2">
-      Update Platform example (blocking stdin_getchar in stdio retarget)
-    </release>
-    <release version="1.0.2-dev1">
-      Projects examples update:
-      - override default HAL_InitTick function
+      - Override default HAL_InitTick function
+      - Update Platform project: Blocking stdin_getchar in stdio retarget
       Replace documentation files with links
-    </release>
-    <release version="1.0.2-dev0">
-      Drivers:
-      - CMSIS-Driver VIO: correct reading joystick
+      Update schemaVersion (1.7.2)
     </release>
     <release version="1.0.1" date="2021-07-12">
       Example projects:
