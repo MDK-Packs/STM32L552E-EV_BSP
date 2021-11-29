@@ -42,7 +42,6 @@
 /*#define HAL_FDCAN_MODULE_ENABLED   */
 /*#define HAL_GTZC_MODULE_ENABLED   */
 /*#define HAL_HASH_MODULE_ENABLED   */
-#define HAL_I2C_MODULE_ENABLED
 /*#define HAL_IRDA_MODULE_ENABLED   */
 /*#define HAL_IWDG_MODULE_ENABLED   */
 /*#define HAL_LPTIM_MODULE_ENABLED   */
@@ -54,7 +53,7 @@
 /*#define HAL_OTFDEC_MODULE_ENABLED   */
 /*#define HAL_PCD_MODULE_ENABLED   */
 /*#define HAL_PKA_MODULE_ENABLED   */
-#define HAL_RCC_MODULE_ENABLED
+
 /*#define HAL_RNG_MODULE_ENABLED   */
 /*#define HAL_RTC_MODULE_ENABLED   */
 /*#define HAL_SAI_MODULE_ENABLED   */
@@ -70,11 +69,12 @@
 /*#define HAL_WWDG_MODULE_ENABLED   */
 #define HAL_GPIO_MODULE_ENABLED
 #define HAL_EXTI_MODULE_ENABLED
+#define HAL_I2C_MODULE_ENABLED
 #define HAL_DMA_MODULE_ENABLED
+#define HAL_RCC_MODULE_ENABLED
 #define HAL_FLASH_MODULE_ENABLED
 #define HAL_PWR_MODULE_ENABLED
 #define HAL_CORTEX_MODULE_ENABLED
-
 #define HAL_ICACHE_MODULE_ENABLED
 
 /* ########################## Oscillator Values adaptation ####################*/
