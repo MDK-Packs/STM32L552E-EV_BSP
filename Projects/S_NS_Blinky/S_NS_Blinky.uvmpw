@@ -5,7 +5,7 @@
 
   <Header>### uVision Project, (C) Keil Software</Header>
 
-  <WorkspaceName>D:\GIT\MDK-PACKS\MyForks\STM32L552E-EV_BSP\Projects\S_NS_Blinky\S_NS_Blinky.uvmpw</WorkspaceName>
+  <WorkspaceName>WorkSpace</WorkspaceName>
 
   <project>
     <PathAndName>.\part_S\part_S.uvprojx</PathAndName>
